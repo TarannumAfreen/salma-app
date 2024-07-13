@@ -5,7 +5,7 @@ dotenv.config();
 const connectDB = async () => {
     try {
       console.log('MongoDB URI:', process.env.MONGO_URI); // Add this line
-      const conn = await mongoose.connect('mongodb+srv://SalmaSanubar:Salma_549@salmacluster.y5azttk.mongodb.net/Business-Tracking-App', {
+      const conn = await mongoose.connect('', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       
